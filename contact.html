@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+
+
+    <title>Logan Geoffrion</title>
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
+
     <script src="main.js"></script>
 </head>
+
 <body>
 
-<!--Header Bar and Links-->
-    <h1>Contact Placeholder</h1>
+    <!--Nav Bar-->
+    <header class="header">
 
-    <a href="index.html">About</a>
+        <div class="navbar">
+            <!-- Nav Bar Name -->
+            <h1 class="nav">
+                Logan Geoffrion
+            </h1>
 
-    <a href="portfolio.html">Portfolio</a>
+            <!-- Nav Bar Buttons -->
+            <ul>
+                    <li><a href="contact.html">Contact</a></li>
 
-    <a href="contact.html">Contact</a>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+    
+                    <li><a href="index.html">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="contact_Body">
+
+        <h1 class="contact_Title">
+            Contact
+        </h1>
+    
+        <div class="contact">
+            <form action="mailto:lgeoffrion@gmail.com?subject=Will_Fix_Later" method="post" enctype="application/x-www-form-urlencoded">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What can I do for you?">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="" style="height:175px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
 
 </body>
+
+<footer class="footer">
+        <div class="foot_Div">
+            <p class="copyright">
+                    Copyright © 2019 by Logan Geoffrion All-Rights Reserved
+            </p>
+        </div>
+        </footer>
+
 </html>
