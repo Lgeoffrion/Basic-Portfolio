@@ -23,6 +23,11 @@ p {
     color: grey;
 }
 
+.bio{
+    padding-bottom: 20px;
+
+}
+
 #profile_pic {
     width: 33%;
     opacity: 0.8;
